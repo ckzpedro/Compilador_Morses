@@ -1,0 +1,109 @@
+Programa iniciado com token START 
+
+Declaracaoo de funcao detectada
+Declaração de funcao validada
+
+Inicio do bloco de codigo
+Declaracao de variavel tipo INTEIRO
+Expressão valida detectada: 10
+Variavel tipo INTEIRO validada 
+
+Ponto e virgula opcional detectado e consumido
+Declaracao de variavel tipo FLOAT
+Expressão valida detectada: 20.5
+Variavel tipo FLOAT validada 
+
+Ponto e virgula opcional detectado e consumido
+Declaracaoo de variavel tipo CHAR
+Expressão valida detectada: "Ola Mundo"
+Variavel tipo CHAR validada
+
+Ponto e virgula opcional detectado e consumido
+Declaração de variavel tipo BOOLEAN
+Expressão valida detectada: - .-. ..- .
+Variavel tipo BOOLEAN validada
+
+Ponto e virgula opcional detectado e consumido
+Inicio da estrutura IF
+Expressão valida detectada: x
+Operador 'MAIOR' detectado
+Expressão valida detectada: y
+Condicional IF validado
+
+Inicio do bloco de codigo
+Inicio da estrutura PRINT
+Expressão valida detectada: "X e maior que y"
+Estrutura PRINT validada
+
+Ponto e virgula opcional detectado e consumido
+Fim do bloco de codigo
+
+Estrutura ELSE detectada e validada
+Inicio do bloco de codigo
+Inicio da estrutura PRINT
+Expressão valida detectada: "Y e maior que X"
+Estrutura PRINT validada
+
+Ponto e virgula opcional detectado e consumido
+Fim do bloco de codigo
+
+Condicional ELSE validada
+
+Ponto e virgula opcional detectado e consumido
+Inicio da estrutura FOR
+Declaração de variável do tipo INT 
+Atribuição detectada após a declaração da variável
+Expressão valida detectada: 0
+Expressão valida detectada: i
+Operador 'MENOR' detectado
+Expressão valida detectada: 10
+Expressão valida detectada: i
+Operador 'INCR' detectado
+Estrutura FOR validada
+
+Inicio do bloco de codigo
+Inicio da estrutura PRINT
+Expressão valida detectada: i
+Estrutura PRINT validada
+
+Ponto e virgula opcional detectado e consumido
+Inicio da estrutura IF
+Expressão valida detectada: i
+Operador 'MAIOR' detectado
+Expressão valida detectada: 5
+Condicional IF validado
+
+Inicio do bloco de codigo
+Inicio da estrutura PRINT
+Expressão valida detectada: "Final da operacao"
+Estrutura PRINT validada
+
+Ponto e virgula opcional detectado e consumido
+Fim do bloco de codigo
+
+Ponto e virgula opcional detectado e consumido
+Fim do bloco de codigo
+
+Ponto e virgula opcional detectado e consumido
+Inicio da estrutura WHILE
+Expressão valida detectada: tf
+Inicio do bloco de codigo
+Inicio da estrutura PRINT
+Expressão valida detectada: strg
+Estrutura PRINT validada
+
+Ponto e virgula opcional detectado e consumido
+Declaração de variavel tipo BOOLEAN
+Expressão valida detectada: ..-. .- .-.. ... .
+Variavel tipo BOOLEAN validada
+
+Ponto e virgula opcional detectado e consumido
+Fim do bloco de codigo
+
+Condicional WHILE validado
+
+Ponto e virgula opcional detectado e consumido
+Fim do bloco de codigo
+
+Ponto e virgula opcional detectado e consumido
+Programa finalizado com token END

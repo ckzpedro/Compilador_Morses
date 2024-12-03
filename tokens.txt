@@ -1,0 +1,106 @@
+Token           Lexema                                                  Linha      Coluna    
+==========================================================================================
+START           -.-. --- -- . ---                                       1          1         
+FUNCAO          ..-. ..- -. -.-. - .. --- -.                            3          1         
+ESQPAREM        (                                                       3          30        
+DIRPAREN        )                                                       3          31        
+ESQCHAVE        {                                                       3          32        
+INT             .. -. -                                                 5          1         
+ID              X                                                       5          9         
+ATRIBUICAO      =                                                       5          11        
+NUMERO          10                                                      5          13        
+PVIRG           ;                                                       5          15        
+FLOAT           ..-. .-.. --- .- -                                      6          1         
+ID              Y                                                       6          20        
+ATRIBUICAO      =                                                       6          22        
+NUMERO          20.5                                                    6          24        
+PVIRG           ;                                                       6          28        
+CHAR            ... - .-. .. -. --.                                     7          1         
+ID              Strg                                                    7          21        
+ATRIBUICAO      =                                                       7          26        
+STRING          "Ola Mundo"                                             7          28        
+PVIRG           ;                                                       7          39        
+BOOLEAN         -... --- --- .-.. . .- -.                               8          1         
+ID              tf                                                      8          27        
+ATRIBUICAO      =                                                       8          30        
+TRUE            - .-. ..- .                                             8          32        
+PVIRG           ;                                                       8          43        
+IF              .. ..-.                                                 10         1         
+ESQPAREM        (                                                       10         9         
+ID              x                                                       10         11        
+MAIOR           >                                                       10         13        
+ID              y                                                       10         15        
+DIRPAREN        )                                                       10         17        
+ESQCHAVE        {                                                       10         19        
+PRINT           .--. .-. .. -. -                                        11         1         
+ESQPAREM        (                                                       11         18        
+STRING          "X e maior que y"                                       11         20        
+DIRPAREN        )                                                       11         38        
+PVIRG           ;                                                       11         39        
+DIRCHAVE        }                                                       12         1         
+ELSE            . .-.. ... .                                            12         3         
+ESQCHAVE        {                                                       12         16        
+PRINT           .--. .-. .. -. -                                        13         1         
+ESQPAREM        (                                                       13         18        
+STRING          "Y e maior que X"                                       13         20        
+DIRPAREN        )                                                       13         38        
+PVIRG           ;                                                       13         39        
+DIRCHAVE        }                                                       14         1         
+PVIRG           ;                                                       14         2         
+FOR             ..-. --- .-.                                            16         1         
+ESQPAREM        (                                                       16         14        
+INT             .. -. -                                                 16         16        
+ID              i                                                       16         24        
+ATRIBUICAO      =                                                       16         26        
+NUMERO          0                                                       16         28        
+PVIRG           ;                                                       16         29        
+ID              i                                                       16         31        
+MENOR           <                                                       16         33        
+NUMERO          10                                                      16         35        
+PVIRG           ;                                                       16         37        
+ID              i                                                       16         39        
+INCR            ++                                                      16         40        
+DIRPAREN        )                                                       16         43        
+ESQCHAVE        {                                                       16         45        
+PRINT           .--. .-. .. -. -                                        17         1         
+ESQPAREM        (                                                       17         18        
+ID              i                                                       17         20        
+DIRPAREN        )                                                       17         22        
+PVIRG           ;                                                       17         23        
+IF              .. ..-.                                                 18         1         
+ESQPAREM        (                                                       18         9         
+ID              i                                                       18         11        
+MAIOR           >                                                       18         13        
+NUMERO          5                                                       18         15        
+DIRPAREN        )                                                       18         17        
+ESQCHAVE        {                                                       18         19        
+PRINT           .--. .-. .. -. -                                        19         1         
+ESQPAREM        (                                                       19         18        
+STRING          "Final da operacao"                                     19         20        
+DIRPAREN        )                                                       19         40        
+PVIRG           ;                                                       19         41        
+DIRCHAVE        }                                                       20         1         
+PVIRG           ;                                                       20         2         
+DIRCHAVE        }                                                       21         1         
+PVIRG           ;                                                       21         2         
+WHILE           .-- .... .. .-.. .                                      23         1         
+ESQPAREM        (                                                       23         20        
+ID              tf                                                      23         22        
+DIRPAREN        )                                                       23         25        
+ESQCHAVE        {                                                       23         27        
+PRINT           .--. .-. .. -. -                                        24         1         
+ESQPAREM        (                                                       24         18        
+ID              strg                                                    24         20        
+DIRPAREN        )                                                       24         25        
+PVIRG           ;                                                       24         26        
+BOOLEAN         -... --- --- .-.. . .- -.                               25         1         
+ID              tf                                                      25         27        
+ATRIBUICAO      =                                                       25         30        
+FALSE           ..-. .- .-.. ... .                                      25         32        
+PVIRG           ;                                                       25         50        
+DIRCHAVE        }                                                       26         1         
+PVIRG           ;                                                       26         2         
+DIRCHAVE        }                                                       28         1         
+PVIRG           ;                                                       28         2         
+END             ..-. .. --                                              30         1         
+PVIRG           ;                                                       30         11        
